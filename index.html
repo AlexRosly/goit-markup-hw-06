@@ -422,6 +422,19 @@
                 </li>
             </ul>
             </div>
+            <div class="sing">
+                <h3 class="footer-invite">Подпишитесь на рассылку</h3>
+               <form class="sing-form">
+                   <label for="mail" class="sing-label">
+                        <input type="email" name="mail" id="mail" placeholder="E-mail" class="sing-mail">
+                    </label>
+                   <button type="submit" class="sing-bt">Подписаться 
+                       <svg width="24" height="24" class="icon-send">
+                           <use href="./images/webstudio-icon.svg#icon-send"></use>
+                       </svg>
+                   </button>
+               </form> 
+            </div>
         </div>
     </footer>
 
@@ -432,6 +445,54 @@
                     <use href="./images/webstudio-icon.svg#icon-close"></use>
                 </svg>
             </button>
+            <form class="form">
+                <p class="title">Оставьте свои данные, мы вам перезвоним</p>
+                <div class="form-field">
+                    <label for="name" class="label">Имя</label>
+                    <div class="input-wrapper">
+                        <input type="name" name="name" id="name" class="input">
+                        <svg width="18" height="18" class="icon">
+                            <use href="./images/webstudio-icon.svg#icon-person"></use>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="form-field">
+                    <label for="phone" class="label">Телефон</label>
+                    <div class="input-wrapper">
+                        <input type="phone" name="phone" id="phone" class="input">
+                        <svg width="18" height="18" class="icon">
+                        <use href="./images/webstudio-icon.svg#icon-phone"></use>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="form-field">
+                    <label for="email" class="label">Почта</label>
+                    <div class="input-wrapper">
+                        <input type="email" name="email" id="email" class="input">
+                        <svg width="18" height="18" class="icon">
+                        <use href="./images/webstudio-icon.svg#icon-email"></use>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="form-field">
+                    <label for="comment" class="label">Комментарий</label>
+                    <textarea
+                        class="textarea" name="comment" id="comment" rows="10" placeholder="Введите текст"></textarea>
+                </div>
+                <div class="check-field">
+                    <label for="checkbox" class="checkbox">
+                        <input type="checkbox" name="checkbox" id="checkbox" class="check-status visually-hidden">
+                        <svg width="16" height="15" class="check-icon">
+                        <use href="./images/webstudio-icon.svg#icon-check"></use>
+                        </svg>
+                        <span class="text">Соглашаюсь с рассылкой и принимаю</span>&nbsp;<a href="">Условия договора</a>
+                    </label>
+                    <button type="submit" class="send-bt">Отправить</button>
+                </div>
+            </form>
         </div>
     </div>    
 
